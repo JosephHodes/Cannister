@@ -1,8 +1,7 @@
 .background{
-  background-image: url("./../../assets/svg/last.svg");
-  // background-color: #cccccc;
-  width: 100%;
-  height: 100%;
+  background-image: url("./../../assets/svg/vector.svg");
+  width: 94vw;
+  height: 43vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -10,9 +9,12 @@
   right: 0;
   background-size: cover;
   display: flex;
-padding: 72px;
-flex: 1;
-overflow-x: hidden;
+  padding: 72px;
+  flex: 1;
+}
+.container{
+  overflow-x: hidden;
+  width:100vw;
 }
 .holder{
   display: flex;
